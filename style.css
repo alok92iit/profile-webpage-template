@@ -1,0 +1,70 @@
+section .flexdiv{
+
+	border-bottom: 1px solid blue;
+}
+
+.mygrid{
+	position: relative;
+	z-index: 1;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-gap: 5px;
+}
+.flexdiv ul li:hover {
+	transform: translateX(10px);
+}
+.abc{
+	background-color: white;
+}
+.abc:hover{
+	background-color: darkgray;
+}
+.mycol p{
+		font-size:2rem;
+	}
+
+div label{
+	
+	margin: 20px 20px 5px 0px;
+	padding: 8px;
+}
+div input{
+	margin: 10px 20px 0px 0px;
+}
+@media screen and (max-width: 950px){
+	.mycol p{
+		font-size:20px;
+	}
+}
+@media screen and (max-width: 530px){
+
+	.mygrid{
+		height: 50%;
+	}
+	.mycol h1{
+		font-size: 1rem;
+
+	}
+	.mycol p{
+		font-size:14px;
+	}
+}
+@media screen and (max-width: 430px){
+	.ach img{
+		margin-left: -10px;
+
+	}
+	.ach .forpara{
+		/*width: 150px; display:inline-block;
+*/	}
+	.ach .year{
+		margin-left: 0px;
+/*		position: relative;top: -100px
+*/	}
+}
+@media screen and (max-width: 530px){
+	.userata {
+		
+		width: 100%;
+	}
+}
